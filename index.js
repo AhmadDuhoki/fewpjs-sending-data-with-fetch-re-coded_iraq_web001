@@ -1,6 +1,6 @@
 const body = document.querySelector('body')[0];
-const name = document.getElementById('dogName').value;
-const email = document.getElementById('dogBreed').value;
+// const name = document.getElementById('dogName').value;
+// const email = document.getElementById('dogBreed').value;
 
 function submitData(usersName, usersEmail){
   let formData = {
