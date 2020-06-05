@@ -1,3 +1,7 @@
+const body = document.querySelector('body')[0];
+const name = document.getElementById('name').value;
+const email = document.getElementById('email').value;
+
 function submitData(usersName, usersEmail){
   let formData = {
     name: usersName,
