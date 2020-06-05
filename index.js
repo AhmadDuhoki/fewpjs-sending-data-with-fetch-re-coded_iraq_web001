@@ -22,10 +22,10 @@ function submitData(usersName, usersEmail){
     return response.json();
   })
   .then(function(object) {
-    document.body.innerHTML = object['id'];
+    body.innerHTML = object['id'];
   })
   .catch(function(error) {
-    document.body.innerHTML = error.message;
+    body.innerHTML = error.message;
   });
 
 }
