@@ -1,4 +1,4 @@
-const body = document.querySelector('body')[0];
+const body = document.getElementsByTagName('body');
 // const name = document.getElementById('dogName').value;
 // const email = document.getElementById('dogBreed').value;
 
